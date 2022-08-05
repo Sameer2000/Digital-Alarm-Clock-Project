@@ -1,5 +1,7 @@
 # Digital-Alarm-Clock-Project
 
+![](assets/screenshot.png)
+
 Use this application ->  https://sameer2000.github.io/Digital-Alarm-Clock-Project/
 
 # DIGITAL ALARM CLOCK 
