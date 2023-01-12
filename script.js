@@ -21,9 +21,7 @@ function ring(realTime) {
 // Shows the real time
 function updateTime() {
     var today = new Date();
-    const hour = formatTime(today.getHours());
-    hour = hour % 12;
-    hour = hour ? hour : 12; 
+    const hour = formatTime(today.getHours() % 12);
     const minutes = formatTime(today.getMinutes());
     const seconds = formatTime(today.getSeconds());
     const realTime = `${hour}:${minutes}:${seconds}`;
